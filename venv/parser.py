@@ -21,7 +21,7 @@ def get_content(html):
     for item in items:
         cards.append(
             {
-                'title':item.find('div', class_='product-name').get_text(),
+                'title':item.find('div', class_='product-name').get_text(), gg
                 'link_product': item.find('div', class_='product-name').find('a').get('href'),
                 'price': item.find('span', class_='price-new').get_text(),
                 'image_card': item.find('div', class_='category-product-image').find('img').get('src')
