@@ -5,6 +5,8 @@ import csv
 CSV = 'cards.csv'
 HOST = 'https://talvi-ukraine.com/'
 URL = 'https://talvi-ukraine.com/shapki/'
+URL_PRODUCT = 'https://talvi-ukraine.com/shapki?product_id='
+
 HEADERS = {
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
     'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36'
@@ -16,6 +18,7 @@ def get_html(url, params=''):
 
 def get_content(html):
     soup = BeautifulSoup(html, 'html.parser')
+    soup.select(".category-product-image > a")
     items = soup.find_all('div', class_='product-thumb')
     cards = []
 
