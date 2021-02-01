@@ -11,7 +11,7 @@ HEADERS = {
 }
 
 def get_html(url, params=''):
-    r = requests.get(url, headers = HEADERS, params = params)
+    r = requests.get(url, headers=HEADERS, params=params)
     return r
 
 def get_content(html):
