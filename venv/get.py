@@ -1,5 +1,16 @@
-import requests
+age = 33
+name = 'Andrey'
 
-response = requests.get("185.104.45.128:443")
+print('Возраст {0} -- {1} года.'.format(name,age))
+print('Что делает {0} с этим Python?'.format(name))
 
-print(response)
+print('{name} написал'.format(name='Swaroop'))
+
+# Имя файла
+
+i = 5
+print('Значение состовляет', i )
+
+s = 'Это многострочная строка. \
+Эта строка продолжается.'
+print(s)
