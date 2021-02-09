@@ -1,5 +1,4 @@
 number = 23
-test = 10
 guess = int(input("Введите целое число: "))
 
 if guess == number:
