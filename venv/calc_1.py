@@ -1,6 +1,6 @@
-a = [80, 20, 40]
-sum = 0
+import random
+
+a = ['Volkswagen', 'BMW', 'Mercedes']
 
 for element in a:
-    sum += element
-print(sum)
+    print(random.random(), element)
