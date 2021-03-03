@@ -1,6 +1,4 @@
-import random
-
-a = ['Volkswagen', 'BMW', 'Mercedes']
+a = ['BMW', 'Mercedes', 'Audi', 'Volkswagen']
 
 for element in a:
-    print(random.random(), element)
+    print(element)
