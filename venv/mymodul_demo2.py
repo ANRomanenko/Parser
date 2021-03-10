@@ -1,0 +1,1 @@
+from memory_parser import sayhi, __ver

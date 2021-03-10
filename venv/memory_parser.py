@@ -1,5 +1,4 @@
-a = ["Артикул", 'Имя', 'Ссылка на шапку', 'Базовая цена', 'Изображения']
+def sayhi():
+    print('Привет! Это гвоорит мой модуль')
 
-for element in a:
-    print(element.upper())
-    print(len(element))
+__version__ = '0.1'
