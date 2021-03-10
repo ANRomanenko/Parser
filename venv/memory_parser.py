@@ -1,14 +1,6 @@
-<<<<<<< HEAD
-def sayhi():
-    print('Привет! Это гвоорит мой модуль')
-
-__version__ = '0.1'
-=======
 import requests
 from bs4 import BeautifulSoup
 import csv
-
-# Пишем константы( констратна это переменная в верхнем регистре )
 
 CSV = 'cards.csv'
 HOST = 'https://talvi-ukraine.com/'
