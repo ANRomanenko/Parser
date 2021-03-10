@@ -34,7 +34,7 @@ def get_content(html):
 # Пишем функцию parser
 
 def parser():
-    html =get_html(URL)
+    html = get_html(URL)
     if html.status_code == 200:
         pass
     else:
